@@ -174,9 +174,14 @@ img {
 @media (max-width: 500px) {
   .nav-content {
     display: block;
-    padding: 10px 0px 0px;
+    padding: 10px 0px 10px;
     text-align: center;
+    justify-content: space-between;
   }
+}
+a {
+  text-decoration: none;
+  font-size: 1.4rem;
 }
 header {
   padding: 100px 225px 0px;
@@ -188,7 +193,7 @@ header {
 @media (max-width: 500px) {
   header {
     display: block;
-    padding: 10px 0px 0px;
+    padding: 10px 0px 10px;
     text-align: center;
   }
 }
@@ -218,6 +223,7 @@ header {
 }
 footer {
   text-align: center;
+  font-size: 2rem;
 }
 @media (max-width: 500px) {
   footer {
