@@ -169,9 +169,58 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border: 1px solid blue;
 }
 @media (max-width: 500px) {
   .nav-content {
+    display: block;
+    padding: 10px 0px 0px;
+    text-align: center;
+  }
+}
+header {
+  padding: 100px 225px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+@media (max-width: 500px) {
+  header {
+    display: block;
+    padding: 10px 0px 0px;
+    text-align: center;
+  }
+}
+.top-content {
+  padding: 100px 225px 100px;
+  display: flex;
+  border: 1px solid greenyellow;
+}
+@media (max-width: 500px) {
+  .top-content {
+    display: block;
+    padding: 10px 0px 0px;
+    text-align: center;
+  }
+}
+.bottom-content {
+  padding: 100px 225px 100px;
+  display: flex;
+  border: 1px solid orange;
+}
+@media (max-width: 500px) {
+  .bottom-content {
+    display: block;
+    padding: 10px 0px 0px;
+    text-align: center;
+  }
+}
+footer {
+  text-align: center;
+}
+@media (max-width: 500px) {
+  footer {
     display: block;
     padding: 10px 0px 0px;
     text-align: center;
