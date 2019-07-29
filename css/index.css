@@ -184,7 +184,7 @@ a {
   font-size: 1.4rem;
 }
 header {
-  padding: 100px 225px 0px;
+  padding: 100px 225px 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
