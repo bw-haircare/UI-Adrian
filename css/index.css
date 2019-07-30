@@ -165,7 +165,7 @@ img {
   margin: 0 auto;
 }
 .nav-content {
-  padding: 25px 225px;
+  padding: 25px 25px 55px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -193,10 +193,10 @@ img {
 }
 header {
   padding: 10px 225px 10px;
-  display: flex;
   align-items: center;
   justify-content: space-between;
   border: 1px solid red;
+  text-align: center;
 }
 @media (max-width: 500px) {
   header {
@@ -247,14 +247,15 @@ header {
   background: white;
 }
 .first-grid {
-  padding: 100px 225px 100px;
+  padding: 100px 175px 10px;
   display: flex;
   border: 1px solid orange;
   justify-content: space-between;
 }
 @media (max-width: 500px) {
   .first-grid {
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding: 10px 0px 0px;
     text-align: center;
   }
@@ -267,14 +268,15 @@ header {
   }
 }
 .second-grid {
-  padding: 100px 225px 100px;
+  padding: 100px 175px 10px;
   display: flex;
   border: 1px solid orange;
   justify-content: space-between;
 }
 @media (max-width: 500px) {
   .second-grid {
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding: 10px 0px 0px;
     text-align: center;
   }
@@ -308,8 +310,9 @@ footer {
 }
 footer a {
   text-decoration: none;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 10px;
   font-size: 1.4rem;
 }
 @media (max-width: 500px) {

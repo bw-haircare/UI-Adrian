@@ -1,5 +1,5 @@
 .nav-content{
-    padding: 25px 225px;
+    padding: 25px 25px 55px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,10 +28,10 @@
 
 header{
     padding: 10px 225px 10px;
-    display: flex;
     align-items: center;
     justify-content: space-between;
     border: 1px solid red;
+    text-align: center;
 
     @media @mobile{
         display:block;
@@ -77,32 +77,15 @@ header{
     background: white;
 }
 
-// .bottom-content{
-//     padding: 100px 225px 100px;
-//     display: flex;
-//     border: 1px solid orange;
-//     justify-content: space-between;
-
-//     @media @mobile{
-//         display:block;
-//         padding: 10px 0px 0px;
-//         text-align: center;
-//       }
-
-//     @media @tablet{
-//         display:flex;
-//         padding: 10px 100px 10px;
-//         text-align: center;
-//     }
-// }
 .first-grid{
-    padding: 100px 225px 100px;
+    padding: 100px 175px 10px;
     display: flex;
     border: 1px solid orange;
     justify-content: space-between;
 
     @media @mobile{
-        display:block;
+        display:flex;
+        flex-direction: column;
         padding: 10px 0px 0px;
         text-align: center;
       }
@@ -114,13 +97,14 @@ header{
     }
 }
 .second-grid{
-    padding: 100px 225px 100px;
+    padding: 100px 175px 10px;
     display: flex;
     border: 1px solid orange;
     justify-content: space-between;
 
     @media @mobile{
-        display:block;
+        display:flex;
+        flex-direction: column;
         padding: 10px 0px 0px;
         text-align: center;
       }
@@ -153,8 +137,9 @@ footer{
 }
 footer a{
     text-decoration: none;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
     font-size: 1.4rem;
 
     @media @mobile{
