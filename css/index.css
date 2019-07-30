@@ -288,6 +288,27 @@ header {
     text-align: center;
   }
 }
+.third-grid {
+  padding: 100px 175px 10px;
+  display: flex;
+  border: 1px solid orange;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .third-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px 0px;
+    text-align: center;
+  }
+}
+@media (max-width: 1024px) {
+  .third-grid {
+    display: flex;
+    padding: 10px 100px 10px;
+    text-align: center;
+  }
+}
 footer {
   padding: 10px 225px 10px;
   text-align: center;
