@@ -179,7 +179,15 @@ img {
     justify-content: space-between;
   }
 }
-a {
+@media (max-width: 770px) {
+  .nav-content {
+    display: block;
+    padding: 10px 0px 10px;
+    text-align: center;
+    justify-content: space-between;
+  }
+}
+.nav-content a {
   text-decoration: none;
   font-size: 1.4rem;
 }
@@ -191,6 +199,13 @@ header {
   border: 1px solid red;
 }
 @media (max-width: 500px) {
+  header {
+    display: block;
+    padding: 10px 0px 10px;
+    text-align: center;
+  }
+}
+@media (max-width: 770px) {
   header {
     display: block;
     padding: 10px 0px 10px;
@@ -209,6 +224,13 @@ header {
     text-align: center;
   }
 }
+@media (max-width: 500px) {
+  .top-content {
+    display: block;
+    padding: 10px 0px 10px;
+    text-align: center;
+  }
+}
 .top-one {
   border: 1px solid black;
 }
@@ -224,7 +246,15 @@ header {
     text-align: center;
   }
 }
+@media (max-width: 770px) {
+  .bottom-content {
+    display: block;
+    padding: 10px 0px 10px;
+    text-align: center;
+  }
+}
 footer {
+  padding: 10px 225px;
   text-align: center;
   font-size: 2rem;
 }
@@ -233,5 +263,34 @@ footer {
     display: block;
     padding: 10px 0px 0px;
     text-align: center;
+  }
+}
+@media (max-width: 770px) {
+  footer {
+    display: block;
+    padding: 10px 0px 10px;
+    text-align: center;
+  }
+}
+footer a {
+  text-decoration: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 1.4rem;
+}
+@media (max-width: 500px) {
+  footer a {
+    display: block;
+    padding: 10px 0px 10px;
+    text-align: center;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 770px) {
+  footer a {
+    display: block;
+    padding: 10px 0px 10px;
+    text-align: center;
+    justify-content: space-between;
   }
 }
