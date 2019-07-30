@@ -27,7 +27,7 @@
 }
 
 header{
-    padding: 100px 225px 10px;
+    padding: 10px 225px 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,24 +47,32 @@ header{
 }
 
 .top-content{
-    padding: 100px 225px 100px;
+    padding: 250px 225px 250px;
     display: flex;
     border: 1px solid greenyellow;
+    @media (min-width: 1025px){  
+    background-image: url("https://images.unsplash.com/photo-1562259920-47afc3030ba2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    }
     
-    @media @mobile{
-        display:block;
-        padding: 10px 0px 0px;
-        text-align: center;
-      }
-
     @media @mobile{
         display:block;
         padding: 10px 0px 10px;
         text-align: center;
+        background-image: none;
+      }
+
+    @media @tablet{
+        display:block;
+        padding: 100px 100px 100px;
+        text-align: center;
+        background-image: url("https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2071&q=80");
+         
     }
 }
+
 .top-one{
     border:1px solid black;
+    background: white;
 }
 
 .bottom-content{

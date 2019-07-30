@@ -179,7 +179,7 @@ img {
     justify-content: space-between;
   }
 }
-@media (max-width: 770px) {
+@media (max-width: 1024px) {
   .nav-content {
     display: block;
     padding: 10px 0px 10px;
@@ -192,7 +192,7 @@ img {
   font-size: 1.4rem;
 }
 header {
-  padding: 100px 225px 10px;
+  padding: 10px 225px 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -205,7 +205,7 @@ header {
     text-align: center;
   }
 }
-@media (max-width: 770px) {
+@media (max-width: 1024px) {
   header {
     display: block;
     padding: 10px 0px 10px;
@@ -213,15 +213,13 @@ header {
   }
 }
 .top-content {
-  padding: 100px 225px 100px;
+  padding: 250px 225px 250px;
   display: flex;
   border: 1px solid greenyellow;
 }
-@media (max-width: 500px) {
+@media (min-width: 1025px) {
   .top-content {
-    display: block;
-    padding: 10px 0px 0px;
-    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1562259920-47afc3030ba2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
   }
 }
 @media (max-width: 500px) {
@@ -229,10 +227,20 @@ header {
     display: block;
     padding: 10px 0px 10px;
     text-align: center;
+    background-image: none;
+  }
+}
+@media (max-width: 1024px) {
+  .top-content {
+    display: block;
+    padding: 100px 100px 100px;
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2071&q=80");
   }
 }
 .top-one {
   border: 1px solid black;
+  background: white;
 }
 .bottom-content {
   padding: 100px 225px 100px;
@@ -246,7 +254,7 @@ header {
     text-align: center;
   }
 }
-@media (max-width: 770px) {
+@media (max-width: 1024px) {
   .bottom-content {
     display: block;
     padding: 10px 0px 10px;
@@ -265,7 +273,7 @@ footer {
     text-align: center;
   }
 }
-@media (max-width: 770px) {
+@media (max-width: 1024px) {
   footer {
     display: block;
     padding: 10px 0px 10px;
@@ -286,7 +294,7 @@ footer a {
     justify-content: space-between;
   }
 }
-@media (max-width: 770px) {
+@media (max-width: 1024px) {
   footer a {
     display: block;
     padding: 10px 0px 10px;
