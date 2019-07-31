@@ -189,7 +189,7 @@ img {
 }
 .nav-content a {
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
 }
 header {
   padding: 10px 225px 10px;
@@ -247,7 +247,7 @@ header {
   background: white;
 }
 .first-grid {
-  padding: 100px 175px 10px;
+  padding: 50px 15px 50px;
   display: flex;
   border: 1px solid orange;
   justify-content: space-between;
@@ -268,7 +268,7 @@ header {
   }
 }
 .second-grid {
-  padding: 100px 175px 10px;
+  padding: 50px 15px 50px;
   display: flex;
   border: 1px solid orange;
   justify-content: space-between;
@@ -289,7 +289,7 @@ header {
   }
 }
 .third-grid {
-  padding: 100px 175px 10px;
+  padding: 50px 15px 50px;
   display: flex;
   border: 1px solid orange;
   justify-content: space-between;
