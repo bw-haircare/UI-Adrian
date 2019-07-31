@@ -3,9 +3,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background:  #E5E7E1;
     
     
-
+    
     @media @mobile{
         display:block;
         padding: 10px 0px 10px;
@@ -46,7 +47,7 @@ header{
 }
 
 header button{
-    background:  #FFBAD2;
+    background:  #FFC3CE;
     border: .5px solid black;
 }
 
@@ -80,6 +81,10 @@ header button{
     background: white;
 }
 
+.bottom-content h2, p{
+    text-align: center;
+}
+
 .first-grid{
     padding: 50px 15px 50px;
     display: flex;
@@ -101,11 +106,28 @@ header button{
     }
 }
 
+
 .first-grid button{
-margin-left:55px;
-background:  #FFBAD2;
-border: .5px solid black;
+    margin-left:50px;
+    background:  #FFC3CE;
+    border: .5px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+
+    @media @mobile{
+        margin-left: 15px;
+        margin-right: 15px;
+        align-self: auto;
+    }
+
+    @media @tablet{
+        margin-left: 10px;
+        margin-right: 10px;
+        align-self: auto;
+    }
 }
+
 
 .second-grid{
     padding: 50px 15px 50px;
@@ -128,10 +150,25 @@ border: .5px solid black;
 }
 
 .second-grid button{
-    margin-left:55px;
-    background:  #FFBAD2;
+    margin-left:50px;
+    background:  #FFC3CE;
     border: .5px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+
+    @media @mobile{
+        margin-left: 15px;
+        margin-right: 15px;
+        align-self: auto;
     }
+
+    @media @tablet{
+        margin-left: 10px;
+        margin-right: 10px;
+        align-self: auto;
+    }
+}
 
 .third-grid{
     padding: 50px 15px 50px;
@@ -154,19 +191,37 @@ border: .5px solid black;
 }
 
 .third-grid button{
-    margin-left:55px;
-    background:  #FFBAD2;
+    margin-left:50px;
+    background:  #FFC3CE;
     border: .5px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+
+    @media @mobile{
+        margin-left: 15px;
+        margin-right: 15px;
+        align-self: auto;
     }
+
+    @media @tablet{
+        margin-left: 10px;
+        margin-right: 10px;
+        align-self: auto;
+    }
+}
 
 .stylists{
     border: 1px solid black;
+    background:  #E5E7E1;
+    cursor: pointer;
 }
 
 footer{
     padding: 10px 225px 10px;
     text-align: center;
     font-size: 2rem;
+    background: #E5E7E1;
 
     @media @mobile{
         display:block;
