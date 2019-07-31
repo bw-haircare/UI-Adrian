@@ -169,7 +169,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid blue;
 }
 @media (max-width: 500px) {
   .nav-content {
@@ -195,7 +194,6 @@ header {
   padding: 10px 225px 10px;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid red;
   text-align: center;
 }
 @media (max-width: 500px) {
@@ -212,10 +210,14 @@ header {
     text-align: center;
   }
 }
+header button {
+  background: #FFBAD2;
+  border: 0.5px solid black;
+}
 .top-content {
   padding: 250px 225px 250px;
   display: flex;
-  border: 1px solid greenyellow;
+  border: 1px solid black;
 }
 @media (min-width: 1025px) {
   .top-content {
@@ -243,14 +245,13 @@ header {
   }
 }
 .top-one {
-  border: 1px solid black;
   background: white;
 }
 .first-grid {
   padding: 50px 15px 50px;
   display: flex;
-  border: 1px solid orange;
   justify-content: space-between;
+  border: 1px solid black;
 }
 @media (max-width: 500px) {
   .first-grid {
@@ -266,12 +267,17 @@ header {
     padding: 10px 100px 10px;
     text-align: center;
   }
+}
+.first-grid button {
+  margin-left: 55px;
+  background: #FFBAD2;
+  border: 0.5px solid black;
 }
 .second-grid {
   padding: 50px 15px 50px;
   display: flex;
-  border: 1px solid orange;
   justify-content: space-between;
+  border: 1px solid black;
 }
 @media (max-width: 500px) {
   .second-grid {
@@ -287,12 +293,17 @@ header {
     padding: 10px 100px 10px;
     text-align: center;
   }
+}
+.second-grid button {
+  margin-left: 55px;
+  background: #FFBAD2;
+  border: 0.5px solid black;
 }
 .third-grid {
   padding: 50px 15px 50px;
   display: flex;
-  border: 1px solid orange;
   justify-content: space-between;
+  border: 1px solid black;
 }
 @media (max-width: 500px) {
   .third-grid {
@@ -308,6 +319,14 @@ header {
     padding: 10px 100px 10px;
     text-align: center;
   }
+}
+.third-grid button {
+  margin-left: 55px;
+  background: #FFBAD2;
+  border: 0.5px solid black;
+}
+.stylists {
+  border: 1px solid black;
 }
 footer {
   padding: 10px 225px 10px;
